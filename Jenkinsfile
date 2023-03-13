@@ -1,5 +1,5 @@
 properties([pipelineTriggers([githubPush()])])
-
+//
 pipeline {
     environment {
         // Global 변수 선언
